@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manchester City Trophies</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            height: 35px;
+        }
+
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #00bfff;
+        }
+
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #1c75bc;
+            margin: 2rem 0;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        .trophy, .championsleague {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 2rem auto;
+            max-width: 1200px;
+            padding: 0 1rem;
+        }
+
+        .trophy img, .championsleague img {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .trophy img:hover, .championsleague img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        .championsleague img {
+            width: 250px;
+            height: 210px;
+        }
+
+        .trophy img {
+            width: 200px;
+            height: 200px;
+        }
+
+        h3 {
+            text-align: center;
+            margin: 10px 0;
+            font-size: 1.2rem;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .trophy img, .championsleague img {
+                width: 150px;
+                height: 150px;
+            }
+
+            .championsleague img {
+                width: 200px;
+                height: 170px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Players</a></li>
+                <li><a href="trophies.html">Trophies</a></li>
+                <li><a href="shop.html">Shop</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <h1>Manchester City Trophies</h1>
+
+    <div class="trophy">
+        <img src="premier_league_trophy.jpg" alt="Premier League Trophy">
+        <img src="fa_cup_trophy.jpg" alt="FA Cup Trophy">
+        <img src="league_cup_trophy.jpg" alt="League Cup Trophy">
+        <img src="community_shield_trophy.jpg" alt="Community Shield Trophy">
+    </div>
+
+    <div class="championsleague">
+        <img src="champions_league_trophy.jpg" alt="Champions League Trophy">
+    </div>
+
+    <div class="trophy-details">
+        <h3>1X CHAMPIONS LEAGUE WINNER 22/23</h3>
+        <h3>9X ENGLISH CHAMPION 22/23, 21/22, 20/21, 18/19, 17/18, 13/14, 11/12, 67/68, 36/37</h3>
+        <h3>1X CUP WINNERS CUP WINNER 69/70</h3>
+        <h3>7X FA CUP WINNER 22/23, 18/19, 10/11, 68/69, 55/56, 33/34, 1903/04</h3>
+        <h3>8X ENGLISH LEAGUE CUP WINNER 20/21, 19/20, 18/19, 17/18, 15/16, 13/14, 75/76, 69/70</h3>
+        <h3>6X ENGLISH SUPERCUP WINNER 19/20, 18/19, 12/13, 72/73, 68/69, 37/38</h3>
+        <h3>7X ENGLISH 2ND TIER CHAMPION 01/02, 65/66, 46/47, 1927/28, 1909/10, 1902/03, 1898/99</h3>
+    </div>
+</body>
+</html>

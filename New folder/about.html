@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manchester City F.C. Players</title>
+    <style>
+        body, h2, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            height: 35px;
+        }
+
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #00bfff;
+        }
+
+        .hero {
+            background: url('etihad-stadium.jpg') no-repeat center center/cover;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+        }
+
+        #main-section {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #main-section h2 {
+            color: #1c75bc;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        #main-section table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 2rem;
+        }
+
+        #main-section th, #main-section td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        #main-section th {
+            background-color: #f2f2f2;
+            color: #1c75bc;
+        }
+
+        #main-section .rank {
+            width: 50px;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                gap: 0;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            #main-section table {
+                font-size: 12px;
+            }
+
+            #main-section th, #main-section td {
+                padding: 4px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="players.html">Players</a></li>
+                <li><a href="trophies.html">Trophies</a></li>
+                <li><a href="shop.html">Shop</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="hero">
+        <h1>Manchester City F.C.</h1>
+    </div>
+
+    <section id="main-section">
+        <h2>Manchester City F.C. Players</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th class="rank">Player</th>
+                    <th>Number</th>
+                    <th>Position</th>
+                    <th>Nationality</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="rank">Ederson</td>
+                    <td>1</td>
+                    <td>Goalkeeper</td>
+                    <td>Brazil</td>
+                </tr>
+                <tr>
+                    <td class="rank">Kyle Walker</td>
+                    <td>2</td>
+                    <td>Right Back</td>
+                    <td>England</td>
+                </tr>
+                <tr>
+                    <td class="rank">John Stones</td>
+                    <td>5</td>
+                    <td>Center Back</td>
+                    <td>England</td>
+                </tr>
+                <tr>
+                    <td class="rank">Ruben Dias</td>
+                    <td>3</td>
+                    <td>Center Back</td>
+                    <td>Portugal</td>
+                </tr>
+                <tr>
+                    <td class="rank">Manuel Akanji</td>
+                    <td>25</td>
+                    <td>Center Back</td>
+                    <td>Switzerland</td>
+                </tr>
+                <tr>
+                    <td class="rank">Aymeric Laporte</td>
+                    <td>14</td>
+                    <td>Center Back</td>
+                    <td>France</td>
+                </tr>
+                <tr>
+                    <td class="rank">Nathan Aké</td>
+                    <td>6</td>
+                    <td>Center Back</td>
+                    <td>Netherlands</td>
+                </tr>
+                <tr>
+                    <td class="rank">Phil Foden</td>
+                    <td>47</td>
+                    <td>Midfielder</td>
+                    <td>England</td>
+                </tr>
+                <tr>
+                    <td class="rank">Ilkay Gündogan</td>
+                    <td>8</td>
+                    <td>Midfielder</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td class="rank">Kevin De Bruyne</td>
+                    <td>17</td>
+                    <td>Midfielder</td>
+                    <td>Belgium</td>
+                </tr>
+                <tr>
+                    <td class="rank">Bernardo Silva</td>
+                    <td>20</td>
+                    <td>Midfielder</td>
+                    <td>Portugal</td>
+                </tr>
+                <tr>
+                    <td class="rank">Riyad Mahrez</td>
+                    <td>26</td>
+                    <td>Forward</td>
+                    <td>Algeria</td>
+                </tr>
+                <tr>
+                    <td class="rank">Jack Grealish</td>
+                    <td>10</td>
+                    <td>Forward</td>
+                    <td>England</td>
+                </tr>
+                <tr>
+                    <td class="rank">Rodrigo Hernández</td>
+                    <td>16</td>
+                    <td>Midfielder</td>
+                    <td>Spain</td>
+                </tr>
+                <tr>
+                    <td class="rank">Kalvin Phillips</td>
+                    <td>4</td>
+                    <td>Midfielder</td>
+                    <td>England</td>
+                </tr>
+                <tr>
+                    <td class="rank">Erling Haaland</td>
+                    <td>9</td>
+                    <td>Striker</td>
+                    <td>Norway</td>
+                </tr>
+                <tr>
+                    <td class="rank">Julian Alvarez</td>
+                    <td>19</td>
+                    <td>Striker</td>
+                    <td>Argentina</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
